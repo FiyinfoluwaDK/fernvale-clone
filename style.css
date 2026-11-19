@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f8f5;
+    color: #17251e;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 25px 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.nav-links a {
+    font-size: 14px;
+    color: white;
+}
+
+.nav-button {
+    background-color: #203c2d;
+
+    
+}
+
+.hero {
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    padding: 80px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    max-width: 750px;
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    color: white;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+
+    margin-top: 80px;
+}
+
+.client-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+
+.hero-details {
+    max-width: 450px;
+}
+
+.hero-description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero-images {
+    display: flex;
+    align-items: center;
+}
+
+.hero-images img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f7f8f5;
+    margin-left: -12px;
+}
+
+.hero-images img:first-child {
+    margin-left: 0;
+}
+.hero-section {
+    min-height: 100vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url("https://res.cloudinary.com/mkd6mykr/image/upload/v1795015593/fernvale.webflow.io_f2762b07-5366-4005-a8ad-84db2a74d0ba/6ab9da927e32879b459b16c8_2c48c5b30809f92c4a160df25cfb3487_hero-finetics.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.primary-button {
+    background-color: white;
+    color: #203c2d;
+    padding: 12px 20px;
+    border-radius: 35px;
+}
+
+.secondary-button, .nav-button{
+    border: 1px solid white;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 35px;
+    gap: 35px;
+}
+
+.about-section {
+    width: 90%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.about-heading {
+    display: grid;
+    grid-template-columns: 1.5fr 0.7fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.section-label {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #69746c;
+    margin-bottom: 20px;
+}
+
+.about-title h2 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: -1px;
+    color: #17251e;
+}
+
+.about-description {
+    padding-top: 35px;
+}
+
+.about-description p {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #69746c;
+}
+
+.about-image {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-stats {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+}
+
+.about-stats div {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px 30px;
+    min-width: 110px;
+}
+
+.about-stats h3 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #17251e;
+}
+
+.about-stats p {
+    font-size: 12px;
+    color: #59645c;
+    margin-top: 5px;
+}
