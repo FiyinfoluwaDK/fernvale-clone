@@ -279,12 +279,13 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+    align-items: center;
 
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .service-card {
-    min-height: 300px;
+    min-height: 400px;
     padding: 30px;
 
     background-color: #e9eee9;
