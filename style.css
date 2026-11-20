@@ -277,7 +277,7 @@ a {
 
 .services-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr );
     gap: 25px;
     align-items: center;
 
@@ -306,4 +306,37 @@ a {
     display: block;
 
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .hero-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 35px;
+    }
+
+    .hero-details {
+        max-width: 100%;
+    }
+
+    .hero-buttons {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .about-image {
+        height: 350px;
+    }
+
+    .services-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .service-card img {
+        width: 100px;
+        height: 100px;
+    }
+
 }
